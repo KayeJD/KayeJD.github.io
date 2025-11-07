@@ -23,11 +23,11 @@ export function HeroSection() {
         >
           <TypeAnimation
             sequence={[
-              "Software Engineer",
+              "Software Engineer.",
               1500,
-              "Embedded Systems Enthusiast",
+              "Student.",
               1500,
-              "Student",
+              "I do stuff :)",
               1500,
             ]}
             wrapper="span"
