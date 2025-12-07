@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import { Github, Linkedin } from "lucide-react";
-import Resume from "../files/Karryl_Dumalag_Resume.pdf";
+import Resume from "../assets/files/Karryl_Dumalag_Resume.pdf";
 import { motion } from "framer-motion";
 
 export function HeroSection() {
