@@ -100,7 +100,7 @@ export function Welcome() {
       <section className="relative w-full flex flex-col items-center justify-center py-32">
         <SectionBgText text="EXPERIENCE" />
         <div id="experience" className="scroll-mt-32 mt-12 mb-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
+          <h1 className="text-4xl md:text-5xl text-gray-900 dark:text-white">
             My Experience
           </h1>
           <TimelineSection items={experienceData} />
@@ -111,7 +111,7 @@ export function Welcome() {
       <section className="relative w-full flex flex-col items-center justify-center py-32">
         <SectionBgText text="PROJECTS" />
         <div id="projects" className="scroll-mt-32 mt-12 mb-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
+          <h1 className="text-4xl md:text-5xl font-abril text-gray-900 dark:text-white">
             Side Projects
           </h1>
 

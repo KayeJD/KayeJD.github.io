@@ -11,7 +11,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-[70px] sm:text-[80px] font-bold text-gray-900 dark:text-white mb-4"
+          className="text-[70px] sm:text-[80px] text-gray-900 dark:text-white mb-4"
         >
           Karryl Dumalag.
         </motion.h1>
