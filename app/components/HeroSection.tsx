@@ -64,7 +64,7 @@ export function HeroSection() {
             className="inline-block px-6 py-3 border-2 border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400 rounded-md font-medium hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 transition"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1.2, duration: 0.8 }}
+            // transition={{ delay: 1.2, duration: 0.8 }}
           >
             My Resume
           </motion.a>
