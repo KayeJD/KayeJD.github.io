@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export function HeroSection() {
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen px-6">
+    <section className="flex flex-col items-center justify-center px-6">
       <div className="w-full max-w-3xl text-left">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
@@ -13,19 +13,13 @@ export function HeroSection() {
           transition={{ duration: 0.6 }}
           className="text-[70px] sm:text-[80px] text-gray-900 dark:text-white mb-4"
         >
-          Karryl Dumalag.
-        </motion.h1>
+          {/* Karryl Dumalag. */}
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.3, duration: 0.8 }}
-        >
           <TypeAnimation
             sequence={[
+              "Karryl Dumalag.",
+              3500,
               "Software Engineer.",
-              1500,
-              "Student.",
               1500,
               "I do stuff :)",
               1500,
@@ -33,9 +27,10 @@ export function HeroSection() {
             wrapper="span"
             speed={50}
             repeat={Infinity}
-            className="text-2xl sm:text-3xl font-medium text-blue-600 dark:text-blue-400"
+            className="text-[70px] sm:text-[80px] text-gray-900 dark:text-white mb-4"
           />
-        </motion.div>
+          
+        </motion.h1>
 
         <motion.div
           initial={{ opacity: 0 }}
@@ -43,9 +38,6 @@ export function HeroSection() {
           transition={{ delay: 0.6, duration: 0.8 }}
           className="mt-8 text-lg leading-relaxed text-gray-600 dark:text-gray-300 space-y-4"
         >
-          <p className="text-xl font-semibold text-gray-800 dark:text-gray-200">
-            Welcome!
-          </p>
           <p>
             This website is my playground. A mini showcase of my coding adventures,
             from side projects that kept me up way past my bedtime to academic

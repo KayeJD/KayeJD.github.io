@@ -69,9 +69,7 @@ export function Welcome() {
 
 
   return (
-    <main className="flex flex-col items-center justify-center px-6 py-16 bg-neutral-50 dark:bg-neutral-900 min-h-screen bg-grid">
-
-    
+    <main className="flex flex-col items-center justify-center py-16 bg-neutral-50 dark:bg-neutral-900 min-h-screen bg-grid">
 
       <Header />
 
