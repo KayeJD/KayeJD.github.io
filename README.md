@@ -1,5 +1,9 @@
 # My Portfolio
 
+<p align="center">
+    <img src="image.png" width="900" />
+</p>
+
 This is my personal portfolio website, built with **React**, and **Tailwind CSS**, and deployed through **GitHub Pages**! I come back every once in a while when I'm bored and have an idea I want to play around with. 
 
 Check it out [here](https://kayejd.github.io/)!
