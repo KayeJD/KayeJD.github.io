@@ -1,6 +1,6 @@
 // Components
 import { HeroSection } from "@/app/components/HeroSection";
-import { SkillsSection } from "~/components/SkillsSection";
+// import { SkillsSection } from "~/components/SkillsSection";
 import ProjectCard from "@/app/components/ProjectCard";
 import { Header } from "@/app/components/Header"; 
 import { TimelineSection } from "@/app/components/TimelineSection";
@@ -18,6 +18,7 @@ import { HVACMain } from "~/images/hvac";
 // ... the other stuff
 import { motion } from "framer-motion";
 import { useDarkMode } from "~/hooks/Themetoggle";
+import { Link } from "react-router";
 
 export function ThemeToggle() {
   const [isDark, setIsDark] = useDarkMode();
@@ -35,6 +36,8 @@ export function ThemeToggle() {
 
 
 export function Welcome() {
+  const disableExtrasPage = true;
+
   const experienceData = [
     {
       label: "Software Engineer Intern",
@@ -65,8 +68,6 @@ export function Welcome() {
         "My early tech days were all about problem-solving, helping enterprise clients troubleshoot Microsoft Surface devices and network systems. It’s where I developed a knack for debugging and communicating complex issues clearly.",
     },
   ];
-
-
 
   return (
     <main className="flex flex-col items-center justify-center py-16 bg-neutral-50 dark:bg-neutral-900 min-h-screen bg-grid">
@@ -168,12 +169,58 @@ export function Welcome() {
           />
         </div>
       </section>
-        {/* TODO:
+
+      <section className="relative w-full flex flex-col items-center justify-center py-32">
+        <SectionBgText text="EXTRAS" />
         <div id="extras" className="scroll-mt-32 mt-12 mb-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
-            Extras
+          <h1 className="text-4xl md:text-5xl text-gray-900 dark:text-white">
+            Extras / After Hours
           </h1>
-        </div> */}
+
+          <div className="w-full max-w-3xl text-left">
+            <div className="mt-8 text-lg leading-relaxed text-gray-600 dark:text-gray-300 space-y-4">
+              <p>The side notes, the things that don&apos;t necessarily fit under a work portfolio. Hobbies, side interests, and mild distractions.  If the link doesn&apos;t work, I probably just got cold feet during an update and turned it off—for now.</p>
+
+              {/* This one looks like a link */}
+              <Link
+                to={disableExtrasPage ? "#" : "/extras-page"}
+                onClick={(e) => disableExtrasPage && e.preventDefault()}
+                aria-disabled={disableExtrasPage}
+                tabIndex={disableExtrasPage ? -1 : 0}
+                className={`
+                  text-gray-700 dark:text-gray-200 transition
+                  ${disableExtrasPage ? "opacity-50 cursor-not-allowed pointer-events-none" : "hover:text-blue-600 dark:hover:text-blue-400"}
+                `}
+              >
+                Take a look →
+              </Link>
+
+              {/* This one looks like a button */}
+              {/* <Link
+                to={disableExtrasPage ? "#" : "/extras-page"}
+                onClick={(e) => {
+                  if (disableExtrasPage) e.preventDefault();
+                }}
+                aria-disabled={disableExtrasPage}
+                tabIndex={disableExtrasPage ? -1 : 0}
+                className={`
+                  inline-flex items-center justify-center
+                  px-6 py-3 border-2 rounded-md font-medium transition
+                  ${
+                    disableExtrasPage
+                      ? "border-gray-400 text-gray-400 opacity-50 cursor-not-allowed pointer-events-none"
+                      : "border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900"
+                  }
+                `}
+              >
+                Take a look →
+              </Link> */}
+
+            </div>
+          </div>
+
+        </div>
+      </section>
       
       <Footer/>
     
