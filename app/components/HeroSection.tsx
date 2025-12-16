@@ -21,7 +21,7 @@ export function HeroSection() {
               3500,
               "Software Engineer.",
               1500,
-              "I do stuff :)",
+              "I create stuff :)",
               1500,
             ]}
             wrapper="span"
