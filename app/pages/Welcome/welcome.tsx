@@ -179,7 +179,7 @@ export function Welcome() {
 
           <div className="w-full max-w-3xl text-left">
             <div className="mt-8 text-lg leading-relaxed text-gray-600 dark:text-gray-300 space-y-4">
-              <p>The side notes, the things that don&apos;t necessarily fit under a work portfolio. Hobbies, side interests, and mild distractions.  If the link doesn&apos;t work, I probably just got cold feet during an update and turned it off—for now.</p>
+              <p>The side notes, the things that don&apos;t necessarily fit under a work portfolio: hobbies, side interests, and mild distractions.  If the link doesn&apos;t work, I probably got cold feet during an update and turned it off... for now heh~.</p>
 
               {/* This one looks like a link */}
               <Link
