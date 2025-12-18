@@ -96,7 +96,7 @@ export function Welcome() {
         <SkillsSection />
       </motion.div> */}
 
-      <section className="relative w-full flex flex-col items-center justify-center py-32">
+      <section className="relative w-full flex flex-col items-center justify-center py-32 px-6">
         <SectionBgText text="EXPERIENCE" />
         <div id="experience" className="scroll-mt-32 mt-12 mb-8">
           <h1 className="text-4xl md:text-5xl text-gray-900 dark:text-white">
@@ -107,7 +107,7 @@ export function Welcome() {
       </section>
     
 
-      <section className="relative w-full flex flex-col items-center justify-center py-32">
+      <section className="relative w-full flex flex-col items-center justify-center py-32 px-6">
         <SectionBgText text="PROJECTS" />
         <div id="projects" className="scroll-mt-32 mt-12 mb-8">
           <h1 className="text-4xl md:text-5xl font-abril text-gray-900 dark:text-white">
@@ -170,7 +170,7 @@ export function Welcome() {
         </div>
       </section>
 
-      <section className="relative w-full flex flex-col items-center justify-center py-32">
+      <section className="relative w-full flex flex-col items-center justify-center py-32 px-6">
         <SectionBgText text="EXTRAS" />
         <div id="extras" className="scroll-mt-32 mt-12 mb-8">
           <h1 className="text-4xl md:text-5xl text-gray-900 dark:text-white">
