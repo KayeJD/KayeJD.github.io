@@ -44,7 +44,7 @@ export function Welcome() {
       date: "Jul 2025 - Present",
       title: "Irenix Empowerment Foundation",
       description:
-        "At Irenix, I helped build and refine the backend for an EHR system designed ground up to securely manage patient data in the Google Cloud environment. I also contributed to integrating ML and AI models that supported predictive analytics and automated health insights. This experience was basically a deep dive into scalable systems, security, and healthcare tech.",
+        "At Irenix, I helped design, build, and refine the backend for an EHR system ground up to manage patient data in the Google Cloud environment. I also contributed to integrating ML and AI models that supported predictive analytics and automated health insights. This experience was basically a deep dive into scalable systems, security, and healthcare tech.",
     },
     {
       label: "Software Engineer (Student Contract)",
@@ -58,7 +58,7 @@ export function Welcome() {
       date: "Mar 2024 - Apr 2025",
       title: "28 Gorilla Engineering",
       description:
-        "At 28 Gorilla, I joined a small but sharp team working on IoT and a range of embedded projects like battery monitoring systems. I helped design tools to process real-time telemetry and learned a ton about backend systems, teamwork, and building for scale from the ground up.",
+        "At 28 Gorilla, I joined a team working on a range of IoT and embedded projects like battery monitoring systems. I helped design tools to process real-time telemetry and learned a ton about backend systems, teamwork, and building for scale from the ground up.",
     },
     {
       label: "Enterprise Technical Support Specialist",
