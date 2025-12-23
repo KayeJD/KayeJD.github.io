@@ -40,14 +40,14 @@ export function Welcome() {
 
   const experienceData = [
     {
-      label: "Software Engineer Intern",
+      label: "Volunteer Software Engineer",
       date: "Jul 2025 - Present",
       title: "Irenix Empowerment Foundation",
       description:
         "At Irenix, I helped design, build, and refine the backend for an EHR system ground up to manage patient data in the Google Cloud environment. I also contributed to integrating ML and AI models that supported predictive analytics and automated health insights. This experience was basically a deep dive into scalable systems, security, and healthcare tech.",
     },
     {
-      label: "Software Engineer (Student Contract)",
+      label: "Software Engineer (Student Worker)",
       date: "Aug 2024 - May 2025",
       title: "General Dynamics Mission Systems",
       description:
