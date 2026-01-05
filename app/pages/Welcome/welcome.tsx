@@ -124,14 +124,6 @@ export function Welcome() {
           />
 
           <ProjectCard
-            title="EffortLogger 2.0"
-            image={effortloggerMain}
-            description="A remake and improvement over the original EffortLogger Excel Visual Basic Program, written in Java for flexibility and using a localhost SQL database."
-            tags={["Java / JavaFX", "SQL", "Authentication", "Documentation", "Agile / Scrum"]}
-            link="effortlogger-project"
-          />
-
-          <ProjectCard
             title="Fraud Detection Machine Learning"
             image={creditCardMain}
             description="Analyzes a Kaggle dataset with 284,807 transactions to detect fraud using machine learning models such as Logistic Regression, Random Forest, and Gradient Boosting."
@@ -166,6 +158,14 @@ export function Welcome() {
               "Project Management",
             ]}
             link="https://github.com/KayeJD/HVAC-System/tree/main"
+          />
+
+          <ProjectCard
+            title="EffortLogger 2.0"
+            image={effortloggerMain}
+            description="A remake and improvement over the original EffortLogger Excel Visual Basic Program, written in Java for flexibility and using a localhost SQL database."
+            tags={["Java / JavaFX", "SQL", "Authentication", "Documentation", "Agile / Scrum"]}
+            link="effortlogger-project"
           />
         </div>
       </section>
