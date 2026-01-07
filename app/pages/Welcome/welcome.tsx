@@ -40,18 +40,18 @@ export function Welcome() {
 
   const experienceData = [
     {
-      label: "Volunteer Software Engineer",
+      label: "Software Engineer",
       date: "Jul 2025 - Present",
       title: "Irenix Empowerment Foundation",
       description:
-        "At Irenix, I helped design, build, and refine the backend for an EHR system ground up to manage patient data in the Google Cloud environment. I also contributed to integrating ML and AI models that supported predictive analytics and automated health insights. This experience was basically a deep dive into scalable systems, security, and healthcare tech.",
+        "This has been a volunteering experience where I helped design, build, and refine the backend for an EHR system ground up to manage patient data in the Google Cloud environment. I also contributed to integrating ML and AI models that supported predictive analytics and automated health insights. This experience was basically a deep dive into scalable systems, security, and healthcare tech.",
     },
     {
-      label: "Software Engineer (Student Worker)",
+      label: "Software Engineer Fellow",
       date: "Aug 2024 - May 2025",
       title: "General Dynamics Mission Systems",
       description:
-        "I worked on secure communications systems for defense environments, developing automated testing tools that supported reliability and performance. It was a great experience blending precision engineering with large-scale collaboration.",
+        "This experience was part of my graduation Capstone project worked on secure communications systems for GDMS! I had the experience of developing automated testing tools that supported reliability and performance. It was a great experience blending precision engineering with large-scale collaboration.",
     },
     {
       label: "Software Developer Intern",
