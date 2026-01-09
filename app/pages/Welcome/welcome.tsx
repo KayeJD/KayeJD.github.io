@@ -44,7 +44,7 @@ export function Welcome() {
       date: "Jul 2025 - Present",
       title: "Irenix Empowerment Foundation",
       description:
-        "This has been a volunteering experience where I helped design, build, and refine the backend for an EHR system ground up to manage patient data in the Google Cloud environment. I also contributed to integrating ML and AI models that supported predictive analytics and automated health insights. This experience was basically a deep dive into scalable systems, security, and healthcare tech.",
+        "This has been a volunteering experience where I helped design, build, and refine the backend for an EHR system ground up to manage patient data in the Google Cloud environment. I also contributed to integrating ML and AI models that supported predictive analytics and automated health insights. This experience was basically a deep dive into system design and healthcare tech.",
     },
     {
       label: "Software Engineer Fellow",
