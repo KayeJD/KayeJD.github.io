@@ -5,6 +5,7 @@ interface TimelineSectionItem {
   label: string;
   date: string;
   title: string;
+  titleUrl?: string;
   description: ReactNode | ReactNode[];
 }
 
@@ -40,7 +41,27 @@ export const TimelineSection: React.FC<TimelineSectionProps> = ({ items }) => {
                 {item.date}
               </time>
 
-              <div className="text-xl font-bold text-slate-900 dark:text-slate-100">{item.title}</div>
+              {/* NOTE TO FUTURE SELF : Link from react-router is mainly used for client side routing. 
+                  You're gonna think about using Link instead of the standard a href again. pls dont  */}
+              <div className="text-xl font-bold">
+                {item.titleUrl ? (
+                  <a
+                    href={item.titleUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-900 dark:text-slate-100
+                              hover:text-blue-600
+                              dark:hover:text-blue-400 transition"
+                  >
+                    {item.title}
+                  </a>
+                ) : (
+                  <span className="text-slate-900 dark:text-slate-100">
+                    {item.title}
+                  </span>
+                )}
+              </div>
+
             </div>
 
             <div className="text-slate-600 dark:text-slate-400">

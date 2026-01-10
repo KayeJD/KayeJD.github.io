@@ -43,6 +43,7 @@ export function Welcome() {
       label: "Software Engineer",
       date: "Jul 2025 - Present",
       title: "Irenix Empowerment Foundation",
+      titleUrl: "https://irenix.org/",
       description: (
         <>
           This has been a volunteering experience where I helped design, build, and refine the backend for an EHR system ground up to manage patient data in the <strong>Google Cloud environment.</strong> I also contributed to integrating <strong>AI/ML</strong> to support predictive analytics and automated health insights. This experience was basically a deep dive into <strong>system design</strong> and <strong>healthcare tech.</strong>
@@ -53,6 +54,7 @@ export function Welcome() {
       label: "Software Engineer Fellow",
       date: "Aug 2024 - May 2025",
       title: "General Dynamics Mission Systems",
+      titleUrl: "https://gdmissionsystems.com/",
       description: (
         <>
           This experience was part of my graduation Capstone project worked on secure communications systems for GDMS where, in short, I worked on developing <strong>automated testing tools</strong> that supported reliability and performance. It was a great experience blending <strong>precision engineering</strong> with <strong>building for scale</strong> from the ground up.
@@ -63,6 +65,7 @@ export function Welcome() {
       label: "Software Developer Intern",
       date: "Mar 2024 - Apr 2025",
       title: "28 Gorilla Engineering",
+      titleUrl: "https://www.28gorilla.com/",
       description: (
         <>
           At 28 Gorilla, I worked on a range of <strong>IoT and embedded systems projects</strong>, contributing to the design of tools for processing real-time telemetry. Through this work, I deepened my understanding of <strong>backend systems, application development, and effective collaboration</strong> within an engineering team.
@@ -74,6 +77,7 @@ export function Welcome() {
       label: "Enterprise Technical Support Specialist",
       date: "Jan 2023 - Jul 2023",
       title: "EAW",
+      titleUrl: "https://eaw.org/",
       description: (
         <>
           My early tech days were all about problem-solving, helping enterprise clients troubleshoot Microsoft Surface devices and network systems. It’s where I developed a knack for debugging and communicating complex issues clearly.
