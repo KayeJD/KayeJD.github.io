@@ -43,29 +43,42 @@ export function Welcome() {
       label: "Software Engineer",
       date: "Jul 2025 - Present",
       title: "Irenix Empowerment Foundation",
-      description:
-        "This has been a volunteering experience where I helped design, build, and refine the backend for an EHR system ground up to manage patient data in the Google Cloud environment. I also contributed to integrating ML and AI models that supported predictive analytics and automated health insights. This experience was basically a deep dive into system design and healthcare tech.",
+      description: (
+        <>
+          This has been a volunteering experience where I helped design, build, and refine the backend for an EHR system ground up to manage patient data in the <strong>Google Cloud environment.</strong> I also contributed to integrating <strong>AI/ML</strong> to support predictive analytics and automated health insights. This experience was basically a deep dive into <strong>system design</strong> and <strong>healthcare tech.</strong>
+        </>
+      ),
     },
     {
       label: "Software Engineer Fellow",
       date: "Aug 2024 - May 2025",
       title: "General Dynamics Mission Systems",
-      description:
-        "This experience was part of my graduation Capstone project worked on secure communications systems for GDMS! I had the experience of developing automated testing tools that supported reliability and performance. It was a great experience blending precision engineering with large-scale collaboration.",
+      description: (
+        <>
+          This experience was part of my graduation Capstone project worked on secure communications systems for GDMS where, in short, I worked on developing <strong>automated testing tools</strong> that supported reliability and performance. It was a great experience blending <strong>precision engineering</strong> with <strong>building for scale</strong> from the ground up.
+        </>
+      ),
     },
     {
       label: "Software Developer Intern",
       date: "Mar 2024 - Apr 2025",
       title: "28 Gorilla Engineering",
-      description:
-        "At 28 Gorilla, I joined a team working on a range of IoT and embedded projects like battery monitoring systems. I helped design tools to process real-time telemetry and learned a ton about backend systems, teamwork, and building for scale from the ground up.",
+      description: (
+        <>
+          At 28 Gorilla, I worked on a range of <strong>IoT and embedded systems projects</strong>, contributing to the design of tools for processing real-time telemetry. Through this work, I deepened my understanding of <strong>backend systems, application development, and effective collaboration</strong> within an engineering team.
+        </>
+      ),
     },
+
     {
       label: "Enterprise Technical Support Specialist",
       date: "Jan 2023 - Jul 2023",
       title: "EAW",
-      description:
-        "My early tech days were all about problem-solving, helping enterprise clients troubleshoot Microsoft Surface devices and network systems. It’s where I developed a knack for debugging and communicating complex issues clearly.",
+      description: (
+        <>
+          My early tech days were all about problem-solving, helping enterprise clients troubleshoot Microsoft Surface devices and network systems. It’s where I developed a knack for debugging and communicating complex issues clearly.
+        </>
+      ),
     },
   ];
 

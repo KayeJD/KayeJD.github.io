@@ -1,10 +1,11 @@
 import React from "react";
+import type { ReactNode } from "react";
 
 interface TimelineSectionItem {
   label: string;
   date: string;
   title: string;
-  description: string | string[];
+  description: ReactNode | ReactNode[];
 }
 
 interface TimelineSectionProps {
