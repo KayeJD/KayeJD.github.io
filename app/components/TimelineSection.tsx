@@ -19,7 +19,7 @@ export const TimelineSection: React.FC<TimelineSectionProps> = ({ items }) => {
       <div className="my-6 relative">
         {items.map((item, index) => (
           <div key={index} className="relative pl-8 sm:pl-48 py-8 group">
-            <div className="font-caveat font-medium text-2xl text-indigo-500 dark:text-indigo-400 mb-1 sm:mb-0">
+            <div className="font-caveat font-medium text-2xl text-blue-500 dark:text-blue-400 mb-1 sm:mb-0">
               {item.label}
             </div>
 
@@ -28,7 +28,7 @@ export const TimelineSection: React.FC<TimelineSectionProps> = ({ items }) => {
               className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden
               before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 dark:before:bg-slate-700
               sm:before:ml-[11rem] before:self-start before:-translate-x-1/2 before:translate-y-3
-              after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 dark:after:bg-indigo-400 after:border-4
+              after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-blue-600 dark:after:bg-blue-400 after:border-4
               after:box-content after:border-slate-50 dark:after:border-slate-800 after:rounded-full sm:after:ml-[11rem]
               after:-translate-x-1/2 after:translate-y-1.5"
             >
