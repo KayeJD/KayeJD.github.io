@@ -12,8 +12,8 @@ export const ExtrasLayout = () => {
              <Music className="text-green-500" />
           </div>
           <div>
-            <p className="font-bold text-lg truncate">Current Song Title</p>
-            <p className="text-sm text-neutral-500 truncate">Artist Name</p>
+            <p className="font-bold text-lg truncate">A Little Thing Like Love</p>
+            <p className="text-sm text-neutral-500 truncate">Kayla Cross</p>
           </div>
         </div>
       </BentoCard>
@@ -21,7 +21,7 @@ export const ExtrasLayout = () => {
       {/* Most recent read */}
       <BentoCard title="Reading" icon={BookOpen} className="md:col-span-1">
         <p className="text-xl font-serif italic text-neutral-700 dark:text-neutral-200">
-          "Project Hail Mary"
+          "The Count of Monte Cristo" by Alexandre Dumas
         </p>
       </BentoCard>
 
@@ -48,7 +48,7 @@ export const ExtrasLayout = () => {
       {/* Games? */}
       <BentoCard title="Recently Played" icon={Gamepad2} className="md:col-span-2">
         <div className="flex justify-between items-end">
-          <h3 className="text-3xl font-bold tracking-tighter italic">ELDEN RING</h3>
+          <h3 className="text-3xl font-bold tracking-tighter italic">THE BLUE PRINCE</h3>
           <p className="text-xs opacity-50 mb-1">LVL 150</p>
         </div>
       </BentoCard>
