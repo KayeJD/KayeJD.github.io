@@ -1,4 +1,4 @@
-import creditCardMain from "./main.jpg";
+import creditCardMain from "./main.webp";
 import creditCardBalancing from "./balancing.png";
 import creditCardDataAnalysis from "./dataanalysis.png";
 import creditCardEnsemble from "./ensemble.png";

@@ -8,7 +8,7 @@ import { Footer } from "~/components/Footer";
 import { SectionBgText } from "@/app/components/SectionBgText";
 
 // Images
-import volexImg from "@/app/images/volexmain.jpg";
+import volexImg from "@/app/images/volexmain.webp";
 import { effortloggerMain } from "~/images/effortlogger";
 import { creditCardMain } from "~/images/credit-card-ml";
 import { SpotifyMain } from "~/images/spotify-unlimited";
