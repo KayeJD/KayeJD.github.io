@@ -8,7 +8,7 @@ This is my personal portfolio website, built with **React**, and **Tailwind CSS*
 
 Check it out [here](https://kayejd.github.io/)!
 
-## Setup & Development
+## Use as a template
 
 Clone this repository and install dependencies:
 
