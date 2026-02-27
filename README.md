@@ -23,6 +23,9 @@ npm install
 npm run dev
 ```
 
+## TODO:
+- The EXTRAS background letters cut at the bottom of the screen in certain dmensions. Create overflow
+
 
 ## Notes:
 
