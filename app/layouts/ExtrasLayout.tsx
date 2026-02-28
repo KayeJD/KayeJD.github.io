@@ -4,6 +4,14 @@ import { Music, BookOpen, CheckCircle2, Coffee, Gamepad2 } from "lucide-react";
 export const ExtrasLayout = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[200px] w-full">
+
+      {/* Handwritten note pointing to Song of the Month card */}
+      <img
+        src="app\images\extras\book_note.png"
+        alt=""
+        aria-hidden="true"
+        className="absolute top-[10px] right-[70px] w-50 pointer-events-none select-none z-2"
+      />
       
       {/* Song of the day/month */}
       <BentoCard title="Song of the Month" icon={Music} className="md:col-span-2">
