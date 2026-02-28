@@ -1,6 +1,6 @@
 export function SectionBgText({ text }: { text: string }) {
   return (
-    <div className="absolute inset-0 flex justify-start overflow-hidden pointer-events-none">
+    <div className="absolute inset-0 flex justify-start pointer-events-none">
       <h1
         className="
           text-[40vw]
