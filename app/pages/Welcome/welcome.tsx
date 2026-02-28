@@ -8,12 +8,12 @@ import { Footer } from "~/components/Footer";
 import { SectionBgText } from "@/app/components/SectionBgText";
 
 // Images
-import volexImg from "@/app/images/volexmain.webp";
-import { effortloggerMain } from "~/images/effortlogger";
-import { creditCardMain } from "~/images/credit-card-ml";
-import { SpotifyMain } from "~/images/spotify-unlimited";
-import { MicroMain } from "~/images/microprocessor";
-import { HVACMain } from "~/images/hvac";
+import volexImg from "@/app/assets/images/volexmain.webp";
+import { effortloggerMain } from "~/assets/images/effortlogger";
+import { creditCardMain } from "~/assets/images/credit-card-ml";
+import { SpotifyMain } from "~/assets/images/spotify-unlimited";
+import { MicroMain } from "~/assets/images/microprocessor";
+import { HVACMain } from "~/assets/images/hvac";
 
 // ... the other stuff
 import { motion } from "framer-motion";

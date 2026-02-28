@@ -7,7 +7,7 @@ export const ExtrasLayout = () => {
 
       {/* Handwritten note pointing to Song of the Month card */}
       <img
-        src="app\images\extras\book_note.png"
+        src="app\assets\images\extras\book_note.png"
         alt=""
         aria-hidden="true"
         className="absolute top-[10px] right-[70px] w-50 pointer-events-none select-none z-2"
