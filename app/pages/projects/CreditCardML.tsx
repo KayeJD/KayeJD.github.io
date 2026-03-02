@@ -8,7 +8,7 @@ import {
   creditCardLogisticRegression,
   creditCardProcessing,
   creditCardNeuralNetwork
-} from "@/app/images/credit-card-ml";
+} from "@/app/assets/images/credit-card-ml";
 
 export default function CreditCardML() {
   return (

@@ -53,7 +53,6 @@ npm run deploy
 ### Removes stale branches, cached builds, and reinstalls dependencies cleanly.
 ```
 git fetch --prune
-git branch -D gh-pages 2>/dev/null || echo "No local gh-pages branch to delete"
 rm -rf build dist .cache node_modules/.cache
 npm install
 ```

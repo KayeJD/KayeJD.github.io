@@ -6,7 +6,7 @@ import {
     effortloggerLogin,
     effortloggerLogs,
     effortloggerEditor,
-} from "~/images/effortlogger";
+} from "~/assets/images/effortlogger";
 
 export default function EffortLogger() {
   return (
