@@ -43,7 +43,7 @@ export function Welcome() {
       label: "Software Engineer",
       date: "Jul 2025 - Present",
       title: "Irenix Empowerment Foundation",
-      titleUrl: "https://irenix.org/",
+      titleUrl: "https://www.irenictherapeutic.com/",
       description: (
         <>
           This has been a volunteering experience where I helped design, build, and refine the backend for an EHR system ground up to manage patient data in the <strong>Google Cloud environment.</strong> I also contributed to integrating <strong>AI/ML</strong> to support predictive analytics and automated health insights. This experience was basically a deep dive into <strong>system design</strong> and <strong>healthcare tech.</strong>
