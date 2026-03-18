@@ -42,7 +42,7 @@ export function Welcome() {
     {
       label: "Software Engineer",
       date: "Jul 2025 - Present",
-      title: "Irenix Empowerment Foundation",
+      title: "Irenic Therapeutic Services",
       titleUrl: "https://www.irenictherapeutic.com/",
       description: (
         <>
