@@ -1,4 +1,4 @@
-import{p as e,w as r}from"./chunk-OIYGIGL5-Dh4DQa0S.js";import{c as a,m as o,H as d,F as x}from"./Footer-BkTL4Byz.js";import{S as m}from"./SectionBgText-DLY-D06J.js";/**
+import{p as e,w as r}from"./chunk-OIYGIGL5-Dh4DQa0S.js";import{c as a,m as o,H as d,F as x}from"./Footer-DLz0O9Jw.js";import{S as m}from"./SectionBgText-DLY-D06J.js";/**
  * @license lucide-react v0.546.0 - ISC
  *
  * This source code is licensed under the ISC license.
