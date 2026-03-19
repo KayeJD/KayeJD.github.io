@@ -36,7 +36,7 @@ export function Header() {
 
   return (
     <header className="fixed top-4 left-0 right-0 z-50 flex justify-center">
-        <div className="w-full mx-4 md:mx-8 backdrop-blur-md bg-white/60 dark:bg-gray-900/50 border border-white/20 dark:border-gray-800/40 shadow-lg rounded-2xl px-6 py-3 flex items-center justify-between transition-all duration-300">
+        <div className="w-full mx-4 md:mx-8 backdrop-blur-md bg-white/60 dark:bg-neutral-950/80 border border-white/20 dark:border-gray-800/40 shadow-lg rounded-2xl px-6 py-3 flex items-center justify-between transition-all duration-300">
             <a
             href="/"
             className="text-3xl font-abril text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 transition"
