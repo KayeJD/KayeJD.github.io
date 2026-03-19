@@ -1,6 +1,8 @@
 import { useEffect, useState, useCallback } from "react";
 import { BentoCard } from "@/app/components/BentoCard";
 import { SnakeGame } from "@/app/components/SnakeGame";
+import { ReactionTimer } from "@/app/components/ReactionTimer";
+
 import {
   Music, BookOpen, CheckCircle2, Coffee,
   Gamepad2, GitCommit, Quote, Zap,
@@ -182,11 +184,11 @@ export const ExtrasLayout = () => {
       <BentoCard title="Recently Played" icon={Gamepad2} accent="teal" className="md:col-span-2">
         <div className="flex justify-between items-end">
           <h3 className="text-3xl font-bold tracking-tighter italic text-gray-900 dark:text-white">THE BLUE PRINCE</h3>
-          <p className="text-xs text-muted-foreground mb-1" style={{ fontFamily: "'Share Tech Mono', monospace" }}>LVL 150</p>
+          <p className="text-xs text-muted-foreground mb-1" style={{ fontFamily: "'Share Tech Mono', monospace" }}>Day 34</p>
         </div>
       </BentoCard>
 
-      
+      <ReactionTimer />
 
       <BentoCard title="Signal Chain Snake (still kinda buggy)" icon={Gamepad2} accent="blue" className="md:col-span-2 md:row-span-2">
         <SnakeGame />
