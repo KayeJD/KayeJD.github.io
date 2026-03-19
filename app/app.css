@@ -384,3 +384,85 @@ body {
     background: rgba(77, 182, 172, 0.10);
     border-color: rgba(77, 182, 172, 0.28);
   }
+
+  /* ─────────────────────────────────────────────
+   BentoCard — paste into @layer utilities
+   ───────────────────────────────────────────── */
+
+  .bento-card {
+    position: relative;
+    overflow: hidden;
+    padding: 1.25rem 1.25rem 1.25rem 1.5rem;
+    background: var(--card);
+    border: 1px solid color-mix(in srgb, var(--card-accent) 20%, var(--border));
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .bento-card:hover {
+    border-color: color-mix(in srgb, var(--card-accent) 55%, transparent);
+    box-shadow: 0 0 24px var(--card-accent-glow), 0 4px 16px rgba(0,0,0,0.08);
+  }
+
+  /* Left-side trace bar — like the signal-chain node accent */
+  .bento-card-trace {
+    position: absolute;
+    left: 0; top: 12px; bottom: 12px;
+    width: 3px;
+    border-radius: 0 2px 2px 0;
+    background: var(--card-accent);
+    box-shadow: 0 0 10px var(--card-accent-glow);
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+  }
+
+  .bento-card:hover .bento-card-trace {
+    opacity: 1;
+  }
+
+  /* Card header row */
+  .bento-card-header {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 1rem;
+  }
+
+  .bento-card-icon {
+    color: var(--card-accent);
+    flex-shrink: 0;
+  }
+
+  .bento-card-label {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--card-accent);
+  }
+
+  /* Icon box inside card content (e.g. music card) */
+  .bento-icon-box {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--card-accent) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--card-accent) 25%, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  /* Focus list dot */
+  .bento-focus-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--card-accent);
+    box-shadow: 0 0 6px var(--card-accent-glow);
+    flex-shrink: 0;
+  }
