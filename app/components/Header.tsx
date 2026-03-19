@@ -54,7 +54,7 @@ export function Header() {
                   <button
                     key={item.id}
                     onClick={() => handleScrollTo(item.id)}
-                    className="hover:text-blue-600 dark:hover:text-blue-400"
+                    className="nav-link text-gray-600 dark:text-gray-300"
                   >
                     {item.label}
                   </button>
