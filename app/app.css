@@ -98,6 +98,11 @@ body {
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+
+  /* ── Signal trace tokens (timeline + future use) ── */
+  --trace:      #5b9bd5;
+  --trace-dim:  #2d5a8a;
+  --trace-glow: rgba(91, 155, 213, 0.30);
 }
 
 @layer base {
@@ -149,6 +154,11 @@ body {
   --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.551 0.027 264.364);
+
+  /* ── Signal trace tokens — brighter in dark mode ── */
+  --trace:      #7ab3e0;
+  --trace-dim:  #3d6fa3;
+  --trace-glow: rgba(122, 179, 224, 0.28);
 }
 
 
@@ -167,5 +177,49 @@ body {
 
   .font-abril {
     font-family: "Abril Fatface", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .timeline-label {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 1.25rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--trace);
+  }
+
+  .timeline-date-pill {
+    font-family: "Share Tech Mono", monospace;
+    color: var(--trace);
+    background-color: color-mix(in srgb, var(--trace) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--trace) 35%, transparent);
+    border-radius: 9999px;
+    box-shadow:
+      0 0 10px var(--trace-glow),
+      0 0 22px color-mix(in srgb, var(--trace-glow) 50%, transparent);
+    transition: box-shadow 0.2s ease;
+  }
+
+  .timeline-date-pill:hover {
+    box-shadow:
+      0 0 14px var(--trace-glow),
+      0 0 32px color-mix(in srgb, var(--trace-glow) 60%, transparent);
+  }
+
+  .timeline-title {
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+  }
+
+  .timeline-title:hover {
+    color: var(--trace);
+    text-shadow: 0 0 16px var(--trace-glow);
+  }
+
+  .timeline-line::before {
+    background-color: var(--trace-dim) !important;
+  }
+
+  .timeline-line::after {
+    background-color: var(--trace) !important;
+    box-shadow: 0 0 8px var(--trace-glow), 0 0 2px var(--trace);
   }
 }
