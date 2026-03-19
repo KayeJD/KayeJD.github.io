@@ -36,7 +36,7 @@ export function ThemeToggle() {
 
 
 export function Welcome() {
-  const disableExtrasPage = true;
+  const disableExtrasPage = false;
 
   const experienceData = [
     {
@@ -46,7 +46,7 @@ export function Welcome() {
       titleUrl: "https://www.irenictherapeutic.com/",
       description: (
         <>
-          This has been a volunteering experience where I helped design, build, and refine the backend for an EHR system ground up to manage patient data in the <strong>Google Cloud environment.</strong> I also contributed to integrating <strong>AI/ML</strong> to support predictive analytics and automated health insights. This experience was basically a deep dive into <strong>system design</strong> and <strong>healthcare tech.</strong>
+          I helped design, build, and refine the backend for an EHR system ground up to manage patient data in the <strong>Google Cloud environment.</strong> I also contributed to integrating <strong>AI/ML</strong> to support predictive analytics and automated health insights. This experience was basically a deep dive into <strong>system design</strong> and <strong>healthcare tech.</strong>
         </>
       ),
     },
@@ -189,50 +189,32 @@ export function Welcome() {
 
       <section className="relative w-full flex flex-col items-center justify-center py-32 px-6">
         <SectionBgText text="EXTRAS" />
-        <div id="extras" className="scroll-mt-32 mt-12 mb-8">
+        <div id="extras" className="scroll-mt-32 mt-12 mb-8 w-full max-w-4xl">
+
+          <div className="hero-eyebrow mb-3">After Hours</div>
           <h1 className="text-4xl md:text-5xl text-gray-900 dark:text-white">
-            Extras / After Hours
+            Extras
           </h1>
+          <div className="hero-divider" style={{ marginTop: "1rem" }} />
 
           <div className="w-full max-w-3xl text-left">
-            <div className="mt-8 text-lg leading-relaxed text-gray-600 dark:text-gray-300 space-y-4">
-              <p>The side notes, the things that don&apos;t necessarily fit under a work portfolio: hobbies, side interests, and mild distractions.  If the link doesn&apos;t work, I probably got cold feet during an update and turned it off... for now heh~.</p>
+            <div className="text-lg leading-relaxed text-gray-600 dark:text-gray-300 space-y-4">
+              <p>
+                The side notes, the things that don&apos;t necessarily fit under a work
+                portfolio: hobbies, side interests, and mild distractions. If the link
+                doesn&apos;t work, I probably got cold feet during an update and turned
+                it off... for now heh~.
+              </p>
 
-              {/* This one looks like a link */}
               <Link
                 to={disableExtrasPage ? "#" : "/extras-page"}
                 onClick={(e) => disableExtrasPage && e.preventDefault()}
                 aria-disabled={disableExtrasPage}
                 tabIndex={disableExtrasPage ? -1 : 0}
-                className={`
-                  text-gray-700 dark:text-gray-200 transition
-                  ${disableExtrasPage ? "opacity-50 cursor-not-allowed pointer-events-none" : "hover:text-blue-600 dark:hover:text-blue-400"}
-                `}
+                className={disableExtrasPage ? "project-card-link opacity-40 cursor-not-allowed pointer-events-none" : "project-card-link"}
               >
                 Take a look →
               </Link>
-
-              {/* This one looks like a button */}
-              {/* <Link
-                to={disableExtrasPage ? "#" : "/extras-page"}
-                onClick={(e) => {
-                  if (disableExtrasPage) e.preventDefault();
-                }}
-                aria-disabled={disableExtrasPage}
-                tabIndex={disableExtrasPage ? -1 : 0}
-                className={`
-                  inline-flex items-center justify-center
-                  px-6 py-3 border-2 rounded-md font-medium transition
-                  ${
-                    disableExtrasPage
-                      ? "border-gray-400 text-gray-400 opacity-50 cursor-not-allowed pointer-events-none"
-                      : "border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900"
-                  }
-                `}
-              >
-                Take a look →
-              </Link> */}
-
             </div>
           </div>
 
