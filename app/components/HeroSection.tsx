@@ -53,10 +53,8 @@ export function HeroSection() {
           />
         </motion.h1>
 
-        {/* Trace divider */}
         <motion.div variants={fadeInVariants} className="hero-divider" />
 
-        {/* Body copy */}
         <motion.div
           variants={fadeInVariants}
           className="text-lg leading-relaxed text-gray-600 dark:text-gray-300 space-y-4"
