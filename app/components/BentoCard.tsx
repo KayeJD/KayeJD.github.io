@@ -10,9 +10,6 @@ interface BentoCardProps {
   accent?: BentoAccent;
 }
 
-// Maps accent name → CSS custom property values injected inline.
-// This lets each card glow its own color without needing separate CSS classes
-// for every permutation — one .bento-card rule handles them all via var(--card-accent).
 const accentTokens: Record<BentoAccent, { color: string; glow: string; dim: string }> = {
   blue:   { color: "#5b9bd5", glow: "rgba(91,155,213,0.28)",  dim: "#2d5a8a" },
   purple: { color: "#9b7fd4", glow: "rgba(155,127,212,0.25)", dim: "#5c3d9e" },
