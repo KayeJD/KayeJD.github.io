@@ -20,7 +20,7 @@ const fadeInVariants = {
 
 export function HeroSection() {
   return (
-    <section className="flex flex-col items-center justify-center px-6">
+    <section className="flex flex-col items-center justify-center px-6 min-h-screen">
       <motion.div
         className="w-full max-w-3xl text-left"
         variants={containerVariants}

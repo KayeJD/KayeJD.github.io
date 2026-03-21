@@ -87,11 +87,11 @@ export function Welcome() {
   ];
 
   return (
-    <main className="flex flex-col items-center justify-center py-32 bg-background dark:bg-neutral-900 min-h-screen bg-grid overflow-x-hidden">
+    <main className="flex flex-col items-center justify-center pb-32 bg-background dark:bg-neutral-900 min-h-screen bg-grid overflow-x-hidden">
 
       <Header />
 
-      <section className="relative w-full flex flex-col items-center justify-center py-32">
+      <section className="relative w-full flex flex-col items-center justify-center">
         <SectionBgText text="ABOUT" />
         <motion.div
           initial={{ opacity: 0, y: 25 }}
