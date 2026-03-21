@@ -23,7 +23,6 @@ function randomFood(snake: Point[]): Point {
   return p;
 }
 
-// ─── Hook ──
 function useSnake() {
   const [snake, setSnake] = useState<Point[]>([
     { x: 6, y: 7 }, { x: 5, y: 7 }, { x: 4, y: 7 },

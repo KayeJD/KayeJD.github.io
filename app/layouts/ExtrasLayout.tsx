@@ -108,7 +108,7 @@ export const ExtrasLayout = () => {
       </BentoCard>
 
       {/* ── Rotating Quote ────────────────────── */}
-      <BentoCard title="Quote" icon={Quote} accent="teal" className="md:col-span-2">
+      <BentoCard title="Quote" icon={Quote} accent="purple" className="md:col-span-2">
         <div className="rotating-quote" style={{ opacity: quoteVisible ? 1 : 0 }}>
           <p className="rotating-quote-text">"{quote.text}"</p>
           <p className="rotating-quote-author">— {quote.author}</p>
@@ -190,7 +190,7 @@ export const ExtrasLayout = () => {
 
       <ReactionTimer />
 
-      <BentoCard title="Signal Chain Snake (still kinda buggy)" icon={Gamepad2} accent="blue" className="md:col-span-2 md:row-span-2">
+      <BentoCard title="Snake (still kinda buggy)" icon={Gamepad2} accent="blue" className="md:col-span-2 md:row-span-2">
         <SnakeGame />
       </BentoCard>
 

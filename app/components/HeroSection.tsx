@@ -39,15 +39,15 @@ export function HeroSection() {
         >
           <TypeAnimation
             sequence={[
-              "Karryl Dumalag.",
+              "Hi!",
+              2000,
+              "I'm Kaye :)",
               3500,
-              "Software Engineer.",
-              1500,
-              "I create stuff :)",
+              "Welcome.",
               1500,
             ]}
             wrapper="span"
-            speed={50}
+            speed={40}
             repeat={Infinity}
             className="text-[70px] sm:text-[80px] text-gray-900 dark:text-white"
           />
