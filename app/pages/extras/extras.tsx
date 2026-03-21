@@ -19,7 +19,7 @@ export default function Extras() {
 
           <div className="hero-eyebrow mb-3">After Hours</div>
           <h1 className="text-4xl md:text-5xl font-abril text-gray-900 dark:text-white">
-            Some fun stuff
+            Some Fun Stuff
           </h1>
           <div className="hero-divider" style={{ marginTop: "1rem", maxWidth: "360px" }} />
           <p className="text-sm mb-12 text-muted-foreground" style={{ fontFamily: "'Share Tech Mono', monospace", letterSpacing: "0.05em" }}>

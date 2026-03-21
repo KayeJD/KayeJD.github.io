@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Moon, Sun } from "lucide-react";
+import { Moon, Sun, Github, Linkedin } from "lucide-react";
 
 export function Header() {
   const [isDark, setIsDark] = useState(() => {
@@ -61,15 +61,36 @@ export function Header() {
                 ))}
               </nav>
 
+                <div className="hidden md:flex items-center gap-3">
+                  <a
+                    href="https://github.com/KayeJD"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hero-icon"
+                    aria-label="GitHub"
+                  >
+                    <Github size={18} />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/karryl-dumalag-766b2923b/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hero-icon"
+                    aria-label="LinkedIn"
+                  >
+                    <Linkedin size={18} />
+                  </a>
+                </div>
 
-              <button
+                <button
                   onClick={() => setIsDark(!isDark)}
                   className="p-2 rounded-md bg-gray-200/50 dark:bg-gray-800/50 text-gray-800 dark:text-gray-200 hover:bg-gray-300/60 dark:hover:bg-gray-700/60 transition"
                   aria-label="Toggle theme"
-              >
+                >
                   {isDark ? <Sun size={20} /> : <Moon size={20} />}
-              </button>
-            </div>
+                </button>
+              </div>
+
         </div>
     </header>
   );
