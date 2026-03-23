@@ -153,7 +153,7 @@ export function Welcome() {
             image={SpotifyMain}
             description="Integrates Spotify’s API into a web app for authentication, top track access, and personalized music recommendations with interactive UI."
             tags={["JavaScript", "Pug / CSS", "API", "Express.js", "OAuth 2.0"]}
-            link="https://github.com/KayeJD/Spotify-Unwrapped-Unlimited"
+            link="https://github.com/KayeJD/Statify"
           />
 
           <ProjectCard
