@@ -149,10 +149,10 @@ export function Welcome() {
           />
 
           <ProjectCard
-            title="Spotify Web API"
+            title="Statify"
             image={SpotifyMain}
             description="Integrates Spotify’s API into a web app for authentication, top track access, and personalized music recommendations with interactive UI."
-            tags={["JavaScript", "Pug / CSS", "API", "Express.js", "OAuth 2.0"]}
+            tags={["JavaScript", "API", "Express.js", "OAuth 2.0"]}
             link="https://github.com/KayeJD/Statify"
           />
 
