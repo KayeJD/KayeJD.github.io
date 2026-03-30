@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import { Github, Linkedin } from "lucide-react";
-import Resume from "../assets/files/KarrylDumalag_Resume.pdf";
+// import Resume from "../assets/files/KarrylDumalag_Resume.pdf";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -78,7 +78,7 @@ export function HeroSection() {
           className="flex space-x-6 mt-10 items-center"
         >
           <a
-            href={Resume}
+            href="https://docs.google.com/document/d/1rzwvGSzVerTEPT5AXJ1YhwXFMZwxb267/edit?usp=sharing&ouid=114103497107990688629&rtpof=true&sd=true"
             target="_blank"
             rel="noopener noreferrer"
             className="hero-btn"
